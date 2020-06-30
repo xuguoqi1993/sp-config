@@ -19,3 +19,29 @@ eureka:
       defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
       
 
+#HelloServer:
+#  ribbon:
+#    listOfServers: helloserver:7111
+# 
+# 
+#management:
+#  endpoint:
+#    restart:
+#      enabled: true
+#    shutdown:
+#      enabled: true
+#    health:
+#      sensitive: false
+#      
+#eureka:
+#  client:
+#    enabled: false
+#    
+#    
+#ribbon:
+#  eureka:
+#    enabled: false
+#    
+#feign:
+#  hystrix:
+#    enabled: false
